@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato',sans-serif;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 90%;
+    height: 100vh;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(71, 71, 73);
+}
+.information h1{
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: rgb(71, 71, 73);
+}
+.logo{
+    width: 170px;
+    height: 170px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px rgb(124, 123, 123);
+    margin-bottom: 1rem;
+}
+.information .buss{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: .5rem 0;
+}
+.information h6{
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: .4rem 0;
+}
+.information span{
+    font-size: .9rem;
+    color: #777;
+    margin-bottom: .5rem;
+}
+.social-links a i{
+    transform: scale(1);
+    font-size: 1.1rem;
+    margin-top: .5rem;
+    padding: .3rem;
+    margin-right:.5rem ;
+    color: rgb(71, 71, 73);
+}
+.social-links a  i:hover{
+    transform: scale(1.5);
+    color: royalblue;
+}
+
+
+/* Second */
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 50%;
+    line-height: 1.6;
+}
+.form-section .form p{
+    /* border-left: 2px solid; */
+    font-size: 1.4rem;
+    color: rgb(71, 71, 73);
+    padding: .4rem 0;
+}
+.form-section .form{
+    display: flex;
+    flex-direction: column;
+}
+.form-section .form small{
+    visibility: hidden;
+}
+.form-section .form .error{
+    visibility: visible;
+}
+.form-section .form input{
+    width: 250px;
+    padding: .35rem .4rem;
+    border-radius: 5px;
+}
+.form-section #login{
+    color: white;
+    background: rgb(71, 71, 73);
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    margin: 1rem 0;
+    box-shadow: 2px 2px 3px #777;
+}
+#login:hover{
+    opacity: .9;
+}
+.form-section a {
+    text-decoration: none;
+    color: rgb(44, 28, 190);
+}
+.form-section a:last-child{
+    border-bottom: .2px solid;
+    /* margin-right: 30px; */
+}
+.form-section a:hover{
+    color: rgb(23, 9, 153);
+}
+
+.form-section .remain p{
+    background: rgb(214, 214, 214);
+    color: black;
+    font-size: 1.2rem;
+    padding: .7rem 1.1rem;
+    margin-top: 3rem;
+    box-shadow: 2px 2px 3px #777;
+}
+.form-section .remain p span{
+    color: red;
+}
+.border{
+    margin-top: 12vh;
+    height: 75vh;
+    width: 2px;
+    color: rgb(71, 71, 73);
+    background: #000;
+
+}
+.err{
+    color: red;
+}
+.error{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 300px;
+    height: 150px;
+    background: #fff;
+    color: rgb(71, 71, 73);
+    border-radius: 10px;
+    border: 1px solid rgb(124, 123, 123);
+    box-shadow: 2px 2px 3px rgb(124, 123, 123);
+    text-align: center;
+    /* padding: 1rem; */
+    display: none;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.error p {
+    margin-top: 1.2rem;
+}
+.close{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: red;
+}

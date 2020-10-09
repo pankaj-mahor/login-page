@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="information">
+            <h1>TRADES 2.0</h1>
+            <p class="buss">Bussiness Software</p>
+
+            <img src="./download.jpg" alt="A Logo" class="logo">
+
+            <p>Powered By:</p>
+            <h6>NCS technologies</h6>
+            <span>37-B, New Mandi,MZN</span>
+
+            <div class="social-links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-whatsapp"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="border"></div>
+        <div class="form-section">
+            <form id="form">
+                <div class="form-control username form">
+                    <p>Login</p>
+                    <input type="email" name="email" id="email" placeholder="Email Address" >
+                    <!-- <small>Error Message</small> -->
+                </div>
+
+                <div class="form-control password form">
+                    <p>Password</p>
+                    <input type="password" name="password" id="password" placeholder="Password?">
+                    <!-- <small>Error Message</small> -->
+                </div>
+
+                <div class="buttons">
+                    <input type="submit" value="Login" id="login">
+                    <!-- <a href="#">Sign Up</a> -->
+                </div>
+            </form>
+            <a href="#">Forget Password?</a>
+            <p>New User? <a href="#">Create an account</a></p>
+            <div class="remain">
+                <p>License Remaining for : <span>144 Days</span></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="error">
+        <span class="close"><i class="fa fa-close"></i></span>
+        <p>Plase use Correct details to login.</p>
+        <p id="infoerror">Pssword should  be llength of 8 charachter containing one capital , one special , number , lower ,lnth min 8</p>
+    </div>
+
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
