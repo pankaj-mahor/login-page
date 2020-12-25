@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <div class="iconBox">
             <img src="./lo.jpg" alt="An Image of person using laptop." class="img">
-            <a href="createacc.html">Create an account</a>
+            <a href="index.html">Login Here</a>
         </div>
         <div class="formfield">
             <div class="form">
-                <h1>Log in</h1>
+                <h1>Create an account</h1>
                 <form action="">
+                    <div class="name">
+                        <input type="text" id="name" placeholder="Name">
+                        <input type="text" placeholder="Number" id="number">
+                    </div>
                     <input type="email" name="email" id="email" placeholder="Email Address">
                     <input type="pass" id="pass" name="pass" placeholder="Password">
 
-                    <button type="submit" class="button">Login</button>
+                    <button class="button" type="submit">Submit </button>
                 </form>
             </div>
             <div class="social">
-                <a href="forget.html" id="forget">Forget Password? </a> 
+                <a href="forget.html" id="forget">Forget Password? </a>
                 <p> or Login with <a href="#"><i class="fab fa-facebook"></i></a><i class="fab fa-google"></i></p>
             </div>
 
@@ -36,4 +44,5 @@
 
 
 </body>
+
 </html>
